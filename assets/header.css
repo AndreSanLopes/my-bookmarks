@@ -1,0 +1,25 @@
+header {
+  /*DIMENSÕES*/
+  width: 100%; /*comprimento adaptável*/
+  padding: 16px 8%; /*adaptação à largura da tela*/
+  /*POSICIONAMENTO*/
+  position: sticky; /*"gruda" no início da página*/
+  top: 0; /*"gruda" no início da página*/
+  z-index: 3; /*prioridade de sobreposição*/
+  /*TIPOGRAFIA*/
+  font-size: 24px;
+  /*VISUAL*/
+
+  /*ANIMAÇÕES*/
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+}
