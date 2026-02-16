@@ -9,17 +9,49 @@ header {
   /*TIPOGRAFIA*/
   font-size: 24px;
   /*VISUAL*/
-
+  background-color: rgb(255, 230, 102);
   /*ANIMAÇÕES*/
 }
 
-ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
+/*nav*/
+nav a {
+  text-decoration: none;
 }
 
-.navbar{
-    display: flex;
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/*ÍCONE HEADER*/
+.icon_head {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.icon_head h3 {
+  font-weight: 500;
+}
+
+/*ul*/
+.navlist {
+  display: flex;
+  gap: 48px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/*LINKS li*/
+.navitem a {
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
 }
